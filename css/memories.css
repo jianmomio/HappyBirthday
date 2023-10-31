@@ -961,6 +961,7 @@
 		position: absolute;
 		width: 100%;
 		bottom: 0;
+		object-fit: cover;
 	}
 
 	/*文本*/
@@ -2024,11 +2025,14 @@
 	opacity:1;
 	transition-delay:3.5s;
 }
-.ly-img31{
-	position: absolute;
-	width: 100%;
-	bottom: 0;
+.ly-img31 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
 }
+
 
 
 
